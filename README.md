@@ -1,3 +1,4 @@
+
 # Svalvard Snow Cover Analysis (2001-2025)
 
 This repository contains the data processing scripts, analysis code, and derived data used to investigate temporal changes in snow cover over Svalbard for the period 2001–2025.
