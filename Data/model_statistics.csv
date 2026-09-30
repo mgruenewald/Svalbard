@@ -1,9 +1,0 @@
-﻿Model ;Predictor ;Regressioncoefficient ;Nominal p-Score ; R2 Coefficient  
-;;( 𝛽) ;;
-;;  ;;
-Year-round Model ;Year of investigation ;–0,045 ;0,0275 ;0,064 
-;;;;
-  Year-round Model ;Surface skin temperature ;-0,455 ;< 0,001;0,064 
-;;;;
-Seasonal Model  ;Year of investigation ;-0,187 ;< 0,001 ;0,0143 
-;;;;
