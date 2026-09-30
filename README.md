@@ -24,9 +24,7 @@ svalbard-snow-cover/
 │   ├── processed/
 │   └── README.md
 ├── scripts/
-│   ├── 01_modis_preprocessing.R
-│   ├── 02_data_analysis.R
-│   └── 03_figures.R
+│   ├── Skript_final
 └── results/
     ├── figures/
     └── tables/
@@ -52,12 +50,6 @@ The following R packages are required:
 * **Modeling & visualization:** lme4, ggplot2, viridis
 ## Reproducibility
 
-The analysis can be reproduced using the R scripts provided in the `scripts/` directory.
+The analysis can be reproduced using the R script provided in the `scripts/` directory.
 
 The original **MODIS MOD10A1** and **MERRA-2** data can be obtained from the respective data providers. Preprocessed data are provided in the `data/` directory.
-
-For the original datasets, run all scripts in the following order. When using the preprocessed data, start with `02_data_analysis.R`.
-
-1. `01_modis_preprocessing.R`
-2. `02_data_analysis.R`
-3. `03_figures.R`
